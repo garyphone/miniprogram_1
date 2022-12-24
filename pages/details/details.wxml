@@ -1,0 +1,8 @@
+<!--pages/details/details.wxml-->
+<image class="background" src="/images/background.jpg"></image>
+<view class="container">
+	<text class="description">Begin here</text>
+	<text class="description">Main part here</text>
+	<text class="description">End here</text>
+</view>
+

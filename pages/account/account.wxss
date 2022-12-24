@@ -1,0 +1,20 @@
+/* pages/account/account.wxss */
+.header {
+	width: 100%;
+	height: 200px;
+}
+
+.description {
+	font-size: 15px;
+	font-style: italic;
+  
+	text-indent: 2em;
+	line-height: 1.5em;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	text-align: left;
+}
+
+.register {
+	margin-top: 50px;
+}

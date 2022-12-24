@@ -1,0 +1,78 @@
+/**index.wxss**/
+/**
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+**/
+.header {
+  width: 100%;
+  height: 200px;
+}
+
+.description {
+  font-size: 15px;
+  font-style: italic;
+
+  text-indent: 2em;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: left;
+}
+
+.garden-description {
+  margin-top: 50px;
+
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.garden {
+  margin-top: 15px;
+}
+
+.show-detail {
+  margin-top: 50px;
+}
+
+.scroll_box {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 40rpx;
+}
+
+.scroll-view_x {
+  padding-left: 30rpx;
+}
+
+.item_list {
+  width: 300rpx;
+  height: auto;
+  margin-right: 60rpx;
+  display: inline-block;
+}
+
+.item_list .title {
+  font-size: 26rpx;
+  color: black;
+  text-indent: 10rpx;
+  text-align: center;
+}
+
+.item_flw_img {
+  width: 300rpx;
+}
+
+.scroll-description {
+  font-size: 26rpx;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

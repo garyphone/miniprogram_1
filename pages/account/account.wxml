@@ -1,0 +1,8 @@
+<!--pages/account/account.wxml-->
+<image class="header" src="/images/background.jpg"></image>
+<view class="container">
+  <text class="description">{{description}}</text>
+  <view class="register">
+    <button bindtap="gotoPage" style="background-color: black; color: white; font-size: 15px;">Register Now</button>
+  </view>
+</view>

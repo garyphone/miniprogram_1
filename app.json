@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/selected/selected",
+    "pages/account/account",
+    "pages/logs/logs",
+    "pages/details/details",
+    "pages/register/register"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Gary's Online Boutique",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "index",
+        "iconPath": "/images/index_inactive.png",
+        "selectedIconPath": "/images/index_active.png"
+      },
+      {
+        "pagePath": "pages/selected/selected",
+        "text": "selected",
+        "iconPath": "/images/selected_inactive.png",
+        "selectedIconPath": "/images/selected_active.png"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "text": "account",
+        "iconPath": "/images/account_inactive.png",
+        "selectedIconPath": "/images/account_active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

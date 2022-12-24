@@ -1,0 +1,36 @@
+<!--pages/selected/selected.wxml-->
+<image class="header" src="/images/background.jpg"></image>
+
+<view class="container">
+  <text class="description">{{description}}</text>
+  <image class="garden" src="/images/garden.jpg" ></image>
+  <text class="description">{{description}}</text>
+  <image class="garden" src="/images/garden.jpg" ></image>
+  <text class="description">{{description}}</text>
+  <image class="garden" src="/images/garden.jpg" ></image>
+  <view class="scroll_box">
+    <scroll-view class="scroll-view_x" scroll-x style="width: auto; overflow: hidden;">
+      <view class="item_list">
+        <image src="/images/flower_1.jpg" class="item_flw_img" mode="widthFix"></image>
+        <view class="title">Flower 1</view>
+      </view>
+      <view class="item_list">
+        <image src="/images/flower2.jpg" class="item_flw_img" mode="widthFix"></image>
+        <view class="title">Flower 2</view>
+      </view>
+      <view class="item_list">
+        <image src="/images/flower3.jpg" class="item_flw_img" mode="widthFix"></image>
+        <view class="title">Flower 3</view>
+      </view>
+      <view class="item_list">
+        <image src="/images/flower4.jpg" class="item_flw_img" mode="widthFix"></image>
+        <view class="title">Flower 4</view>
+      </view>
+    </scroll-view>  
+  </view>
+  <text class="scroll-description">{{scroll_description}}</text>
+  <view class="show-detail">
+    <button bindtap="gotoPage" style="background-color: black; color: white; font-size: 15px;">Explore More</button>
+  </view>
+  <text class="description">{{description}}</text>
+</view>
